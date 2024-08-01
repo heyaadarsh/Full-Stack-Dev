@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://aadarsh0001:nBLOCrC5D3mQJ2bm@cluster0.yvl0zfb.mongodb.net/newUserApp");
+mongoose.connect("mongodb+srv://aadarsh0001:@cluster0.yvl0zfb.mongodb.net/newUserApp");
 
 const User = mongoose.model('users', {
     name: String,
