@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const app = express();
 app.use(express.json());
 
-mongoose.connect("mongodb+srv://aadarsh0001:nBLOCrC5D3mQJ2bm@cluster0.yvl0zfb.mongodb.net/newUserApp")
+mongoose.connect("mongodb+srv://aadarsh0001:@cluster0.yvl0zfb.mongodb.net/newUserApp")
     .then(()=>{
         console.log("Connected to DB Sucessfully!");        
     })
